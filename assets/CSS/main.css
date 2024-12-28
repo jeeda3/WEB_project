@@ -1,0 +1,97 @@
+body {
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+  }
+  p{
+    color: #879490;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  /*navbar*/
+  .navbar-custom {
+    background-color: #3D5C51; /* لون الخلفية */
+}
+.navbar-custom .nav-link {
+    color: white;
+    margin: 0 10px; /* مسافة بين العناصر */
+    transition: color 0.3s ease;
+}
+.navbar-custom .nav-link:hover {
+    color: #FFC000; /* تغيير لون النص عند التحريك */
+}
+.navbar-custom .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-custom .icons a {
+    color: white;
+    margin-left: 15px; /* مسافة بين الأيقونات */
+    font-size: 1.2rem;
+}
+/*navbar*/
+.head{
+    background-color: #3D5C51;
+    margin-bottom: 90px;
+}
+.ShowBtn{
+   
+    color :#3D5C51;
+}
+.p1{
+    color: #879490;
+}
+.ExplorBtn{
+    color: white;
+}
+.ExplorBtn:hover{
+    border:3px solid white;
+}
+
+.explore{
+    background-color: black;
+}
+
+.sec1,.sec3 ,.sec4,.sec5,.sec6,.sec7{
+    margin-bottom: 90px;
+}
+
+.sec3{
+    margin-top:130px;
+}
+.list {
+    list-style-type: circle;
+    
+}
+.list li{
+    color: #404140 ;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* عند المرور على الأزرار */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #0d734f; /* لون سكني أغمق عند المرور */
+}
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ViewAll a{
+  
+    color: black;
+}
+
+
+
